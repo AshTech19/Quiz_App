@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quiz App 1</string>
+    <string name="email_or_username">Email or username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="security_question">Security Question - Your favourite hobby</string>
+    <string name="register">Register</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="create_quiz">Create quiz</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="question">Question</string>
+    <string name="add">Add</string>
+    <string name="done">Done</string>
+    <string name="quiz">quiz</string>
+    <string name="question_quiz">Question Here</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option_2</string>
+    <string name="option_3">Option_3</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="choose_answer">Choose Answer</string>
+    <string name="answer_1">1</string>
+    <string name="answer_2">2</string>
+    <string name="answer_3">3</string>
+    <string name="insert_question_failed">Error with saving question</string>
+    <string name="insert_question_success">Question Added!</string>
+    <string name="insert_question_missing">You forgot to enter the question.</string>
+    <string name="insert_options_missing">Please enter all options.</string>
+    <string name="insert_answer_missing">Please choose the answer.</string>
+    <string name="insert_field_missing">Please fill every field</string>
+</resources>
