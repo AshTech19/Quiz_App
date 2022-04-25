@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/drawable/form_color_cursor.xml" value="0.1" />
+        <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/drawable/simple_white_button.xml" value="0.1" />
         <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/activity_authentication.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/activity_create_quiz.xml" value="0.1" />
         <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
