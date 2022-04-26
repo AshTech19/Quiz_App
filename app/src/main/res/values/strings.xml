@@ -32,4 +32,6 @@
     <string name="insert_options_missing">Please enter all options.</string>
     <string name="insert_answer_missing">Please choose the answer.</string>
     <string name="insert_field_missing">Please fill every field</string>
+    <string name="correct_answer">Correct Answer!</string>
+    <string name="wrong_answer">Wrong Answer!</string>
 </resources>

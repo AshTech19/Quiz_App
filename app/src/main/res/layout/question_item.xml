@@ -17,7 +17,6 @@
             android:text="@string/quiz"
             android:textAllCaps="true"
             android:textAlignment="center"
-            android:textColor="@android:color/white"
             android:textSize="50sp" />
 
         <LinearLayout
@@ -54,7 +53,7 @@
                     android:id="@+id/Option1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="40dp"
+                    android:layout_margin="30dp"
                     android:text="@string/option_1"
                     android:textSize="16sp"
                      />
@@ -63,7 +62,7 @@
                     android:id="@+id/Option2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="40dp"
+                    android:layout_margin="30dp"
                     android:text="@string/option_2"
                     android:textSize="16sp"
                      />
@@ -72,14 +71,14 @@
                     android:id="@+id/Option3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="40dp"
+                    android:layout_margin="30dp"
                     android:text="@string/option_3"
                     android:textSize="16sp"
                      />
             </RadioGroup>
 
         </LinearLayout>
-
+    <!--
         <Button
             android:id="@+id/nextQuestion"
             android:layout_width="wrap_content"
@@ -93,12 +92,12 @@
             android:textSize="23sp"
             android:textColor="@android:color/white"
             android:visibility="gone"/>
+            -->
 
         <Button
             android:id="@+id/btnSubmit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
             android:layout_marginBottom="10dp"
             android:layout_gravity="center_horizontal"
             android:text="@string/submit"
@@ -108,9 +107,11 @@
 
         <TextView
             android:id="@+id/score"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp" />
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"/>
 
 
 
