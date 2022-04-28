@@ -49,7 +49,7 @@ public class Authentication extends AppCompatActivity {
     }
 
     public class AuthenticationAdapter extends FragmentPagerAdapter {
-        private List<Fragment> fragments;
+        private final List<Fragment> fragments;
 
         public AuthenticationAdapter(FragmentManager fm){
             super(fm);
