@@ -34,4 +34,9 @@
     <string name="insert_field_missing">Please fill every field</string>
     <string name="correct_answer">Correct Answer!</string>
     <string name="wrong_answer">Wrong Answer!</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="reset">Reset</string>
+    <string name="security_answer">Security Answer</string>
+    <string name="security_code">Security Code</string>
 </resources>

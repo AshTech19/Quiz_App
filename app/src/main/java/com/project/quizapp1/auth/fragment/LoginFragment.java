@@ -11,15 +11,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
 import com.project.quizapp1.MainActivity;
 import com.project.quizapp1.R;
+import com.project.quizapp1.auth.ForgotPasswordActivity;
 
 public class LoginFragment extends Fragment {
     private EditText email, password;
+    private TextView reset_pw;
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
 
@@ -36,9 +39,15 @@ public class LoginFragment extends Fragment {
         email = view.findViewById(R.id.email);
         password = view.findViewById(R.id.password);
         Button loginBtn = view.findViewById(R.id.btnLogin);
+        TextView reset_pw = view.findViewById(R.id.reset);
 
+        reset_pw.setOnClickListener(v-> forgot_password());
         loginBtn.setOnClickListener(v -> validate(required_username,required_email,required_password));
         return view;
+    }
+
+    private void forgot_password(){
+        ForgotPasswordActivity.start(getActivity());
     }
 
     private void validate(String required_username,String required_email, String required_password){

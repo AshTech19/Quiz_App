@@ -9,9 +9,10 @@
         <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/activity_create_quiz.xml" value="0.1" />
         <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/activity_start_quiz.xml" value="0.25" />
-        <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/login_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/forgot_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/login_fragment.xml" value="0.25" />
         <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/question_item.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/register_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AYESHA/AndroidStudioProjects/QuizApp1/app/src/main/res/layout/register_fragment.xml" value="0.1" />
       </map>
     </option>
   </component>

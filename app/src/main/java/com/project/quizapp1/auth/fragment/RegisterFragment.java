@@ -2,7 +2,14 @@ package com.project.quizapp1.auth.fragment;
 
 import static android.content.Context.MODE_PRIVATE;
 
+import android.Manifest;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -10,9 +17,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
+
 
 import com.project.quizapp1.MainActivity;
 import com.project.quizapp1.R;
@@ -22,12 +32,16 @@ public class RegisterFragment extends Fragment {
     private EditText username, email, password, confirm_password, security;
     private Button registerBtn;
 
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         final View view = inflater.inflate(R.layout.register_fragment, container, false);
         init(view);
         registerBtn.setOnClickListener(v -> validate());
+
+
         return view;
     }
+
 
     private void validate(){
         String user_name = username.getText().toString();
